@@ -1,0 +1,24 @@
+allExamplesTest:
+	Without Table Settings:
+		color-band-table
+		custom-cell-table
+		expandable-row-table
+		filterable-table
+		filterable-table-advanced
+		fixed-header-table
+		paginated-table
+		quick-filter-table
+		resizable-columns-table
+		simple-selection-table
+		simple-table
+		sortable-table
+		tree-table
+		virtual-scroll-table
+
+
+	With Pinned Columns:
+		pinned-column-table
+		simple-table-settings
+
+
+	Without Pinned Columns:

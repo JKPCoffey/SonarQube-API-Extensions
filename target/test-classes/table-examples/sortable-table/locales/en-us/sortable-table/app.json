@@ -1,0 +1,7 @@
+{
+	"title": "Sortable Table",
+	"description": [
+		"The Sortable Table example shows how to add support for sorting.",
+		"It displays a table with three sortable columns."
+	]
+}

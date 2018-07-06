@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+
+set -e
+
+for childApp in ./*; do
+    if [ "$childApp" == "./script" ]; then
+       continue
+    fi
+
+    echo "-------------------------------------------"
+    echo "Updating $childApp"
+
+    cd ${childApp}
+
+    cdt2 package install
+    cdt2 package check-updates
+    rm -rf .cdt/
+
+    cd ..
+done

@@ -1,0 +1,17 @@
+s:columns
+c:ArrayLiteralResize, ResizableColumns
+
+s:selection
+c:Selection
+
+s:settings
+c:ApplyCancelFlyout, Flyout, MandatoryColumns, PinnedColumns, TableSettings
+
+s:table
+c:Table
+
+s:tooltips
+c:Tooltips
+
+s:blank
+c:BlankFile

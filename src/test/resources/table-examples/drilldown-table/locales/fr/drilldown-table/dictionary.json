@@ -1,0 +1,9 @@
+{
+	"instructions": "Cliquez sur les éléments du tableau pour descendre dans la hiérarchie.",
+	"table": {
+		"id": "Id",
+		"name": "Nom",
+		"parent": "Parent",
+		"hasChildren": "Sous Éléments"
+	}
+}

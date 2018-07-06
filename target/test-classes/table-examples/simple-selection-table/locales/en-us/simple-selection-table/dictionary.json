@@ -1,0 +1,25 @@
+{
+	"details": {
+		"noSelection": {
+			"header": "No User Selected",
+			"message": "Select a User to view its details"
+		}
+	},
+	"actions": {
+		"viewDetails": "View details",
+		"deleteSelection": "Delete Selection"
+	},
+	"table": {
+		"header": "Users List",
+		"noData": {
+			"header": "No Data",
+			"message": "In this example, refresh your browser to get back all the data"
+		}
+	},
+	"user": {
+		"details": "User's Details",
+		"firstName": "First Name",
+		"lastName": "Last Name",
+		"role": "Role"
+	}
+}

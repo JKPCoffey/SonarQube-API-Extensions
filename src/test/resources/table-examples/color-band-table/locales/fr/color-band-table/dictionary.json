@@ -1,0 +1,10 @@
+{
+	"user": {
+		"firstName": "Prénom",
+		"lastName": "Nom",
+		"role": "Rôle",
+		"status": "Statut",
+		"online": "En ligne",
+		"offline": "Hors ligne"
+	}
+}

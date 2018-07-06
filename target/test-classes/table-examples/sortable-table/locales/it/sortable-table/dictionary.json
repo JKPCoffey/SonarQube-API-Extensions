@@ -1,0 +1,14 @@
+{
+	"actions": {
+		"multiSort": "Passa a ordinamento su più colonne",
+		"simpleSort": "Passa a ordinamento su singola colonna"
+	},
+	"table": {
+		"sortLimitReached": "Limite di colonne ordinate ragiunto",
+		"continent": "Continente",
+		"country": "Paese",
+		"city": "Città",
+		"population": "Popolazione",
+		"description": "Descrizione"
+	}
+}

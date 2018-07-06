@@ -1,0 +1,55 @@
+.elNetworkExplorerLib-TopologyDropdown {
+
+    &-button {
+        min-width: 180px;
+        white-space: normal;
+    }
+
+    &-topologyIcon {
+        position: relative;
+        top: -2px;
+        left: -4px;
+    }
+
+    &-dropdownIcon {
+        float: right;
+    }
+
+    &_fill {
+        width: 100%;
+
+        .elNetworkExplorerLib-TopologyDropdown {
+
+            &-button {
+                min-width: 50px;
+                width: 100%;
+            }
+
+            &-caption {
+                width: calc(~'100% - 20px');
+                overflow: hidden;
+                text-overflow: ellipsis;
+                min-width: 0;
+                white-space: nowrap;
+            }
+        }
+    }
+
+    &_icon {
+
+        .elNetworkExplorerLib-TopologyDropdown {
+
+            &-button {
+                min-width: 50px;
+            }
+
+            &-caption {
+                min-width: 0;
+            }
+
+            &-captionText {
+                display: none;
+            }
+        }
+    }
+}

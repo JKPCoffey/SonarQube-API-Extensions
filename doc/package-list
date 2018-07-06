@@ -1,0 +1,14 @@
+data.checks
+data.reader
+data.relation
+org.sonar.plugin
+org.sonar.plugin.definitions
+org.sonar.ux.checks
+org.sonar.ux.checks.factory
+org.sonar.ux.checks.file
+org.sonar.ux.checks.table.columns
+org.sonar.ux.checks.table.selection
+org.sonar.ux.checks.table.settings
+org.sonar.ux.checks.table.table
+org.sonar.ux.checks.table.tooltips
+utilities

@@ -1,0 +1,2 @@
+findAndSearchTest:
+	table		settings		selection		columns		tooltips		table

@@ -1,0 +1,8 @@
+{
+	"table": {
+		"title": "Titolo",
+		"firstName": "Nome",
+		"lastName": "Cognome",
+		"description": "Descrizione"
+	}
+}

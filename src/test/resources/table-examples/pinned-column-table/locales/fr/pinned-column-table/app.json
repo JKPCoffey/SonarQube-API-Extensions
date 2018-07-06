@@ -1,0 +1,7 @@
+{
+	"title": "Tableau à Colonnes Fixes",
+	"description": [
+		"L'exemple du Tableau à Colonnes Fixes montre comment améliorer la lisibilité de certains tableaux. Cela en verrouillant la position les colonnes importantes, et permettant aux autres colonnes de défiler horizontalement derrière.",
+		"Il affiche un tableau où l'identifiant de l'utilisateur, le prénom et le nom restent en place tandis que les colonnes montrant les autres attributs défilent horizontalement derrière lorsque le tableau est trop grand pour tenir horizontalement. Le panneau de configuration du tableau permet à l'utilisateur d'activer le verrouillage et le déverrouillage des colonnes."
+	]
+}

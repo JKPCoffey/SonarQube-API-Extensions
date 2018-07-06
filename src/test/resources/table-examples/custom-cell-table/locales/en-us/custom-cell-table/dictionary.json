@@ -1,0 +1,8 @@
+{
+	"table": {
+		"firstName": "First Name",
+		"lastName": "Last Name",
+		"dob": "Date of Birth",
+		"status": "Status"
+	}
+}

@@ -1,0 +1,7 @@
+{
+	"title": "Custom Cell Table",
+	"description": [
+		"The Custom Cell Table example shows how to customize the table cells.",
+		"It displays a table where the user's date of birth and status are displayed using customized cells."
+	]
+}

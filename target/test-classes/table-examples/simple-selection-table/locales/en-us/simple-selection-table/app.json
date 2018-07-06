@@ -1,0 +1,7 @@
+{
+	"title": "Simple Selection Table",
+	"description": [
+		"The Simple Selection Table example shows how to add support for standard selection mechanisms: click, control click, shift click, select all and deselect all",
+		"It displays a table with ten selectable rows. Selecting a row shows the context action to view the selected users' details."
+	]
+}

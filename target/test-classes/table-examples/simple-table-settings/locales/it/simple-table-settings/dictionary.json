@@ -1,0 +1,17 @@
+{
+	"form": {
+		"apply": "Applicare",
+		"cancel": "Annullare"
+	},
+	"table": {
+		"header": "Lista degli utenti",
+		"settings": "Configurazione della Tabella"
+	},
+	"user": {
+		"firstName": "Nome",
+		"lastName": "Cognome",
+		"dob": "Data di nascita",
+		"status": "Status",
+		"role": "Role"
+	}
+}

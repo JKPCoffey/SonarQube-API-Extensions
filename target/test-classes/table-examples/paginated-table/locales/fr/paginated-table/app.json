@@ -1,0 +1,8 @@
+{
+	"title": "Tableau Paginé",
+	"level": "Intermédiaire",
+	"description": [
+		"L'exemple du Tableau Paginé implémente une pagination côté serveur. Le mécanisme combine le tableau et le widget de Pagination pour afficher un grand ensemble de données.",
+		"Il affiche un tableau de 50 000 entrées et simule une latence du réseau en ajoutant un retard avant d'afficher les données de la prochaine page."
+	]
+}

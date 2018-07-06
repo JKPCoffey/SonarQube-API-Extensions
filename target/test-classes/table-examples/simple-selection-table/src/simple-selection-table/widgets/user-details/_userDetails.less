@@ -1,0 +1,24 @@
+.eaSimpleSelectionTable-wUserDetails {
+    display: inline-block;
+    font-size: 0;
+    margin: 8px 0;
+
+    &-label,
+    &-value {
+        display: inline-block;
+        vertical-align: top;
+        font-size: 1.2rem;
+        line-height: 1.6rem;
+    }
+
+    &-label {
+        width: 140px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    &-value {
+        width: calc(~'100% - 140px');
+        white-space: normal;
+    }
+}

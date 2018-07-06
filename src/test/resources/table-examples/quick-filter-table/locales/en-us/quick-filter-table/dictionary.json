@@ -1,0 +1,28 @@
+{
+	"table": {
+		"title": "System Users",
+		"typeToFilter": "Type to filter",
+		"toggleFilter": "Toggle Filter",
+		"filter": {
+			"filtersApplied": "Filters applied",
+			"clear": "Clear"
+		},
+		"noData": {
+			"header": "No Match Found",
+			"message": "Nothing was found matching your filters."
+		}
+	},
+	"status": {
+		"all": "All",
+		"active": "Active",
+		"restricted": "Restricted"
+	},
+	"user": {
+		"id": "Id",
+		"firstName": "First Name",
+		"lastName": "Last Name",
+		"registration": "Registration Date",
+		"status": "Status",
+		"role": "Role"
+	}
+}

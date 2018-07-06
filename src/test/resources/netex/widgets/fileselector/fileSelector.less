@@ -1,0 +1,32 @@
+.elNetworkExplorerLib-wFileSelector {
+    &-textBox {
+        display: inline-block;
+
+        &-fileName {
+         cursor: default;
+        }
+
+        &-fileNameErrorText {
+            &_error_true{
+                display: block;
+                margin-top:3px;
+            }
+
+            &_error_false{
+                display: none;
+            }
+        }
+    }
+
+    &-button {
+        display: inline-block;
+    }
+
+    &-inputError {
+        border-color: #F00;
+    }
+
+    &-fileSelectorInput {
+        display: none;
+    }
+}

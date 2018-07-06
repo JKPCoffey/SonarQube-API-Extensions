@@ -1,0 +1,7 @@
+{
+	"title": "Tableau à Bande Colorée",
+	"description": [
+		"L'exemple du Tableau à Bande Colorée montre comment ajouter une bande colorée au début de chaque ligne.",
+		"Il affiche un tableau où le statut de l'utilisateur est en tant que colonne et bande colorée."
+	]
+}

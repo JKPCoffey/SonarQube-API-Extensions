@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.sonar.ux.checks.table.tooltips.TooltipsCheckTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.026 sec

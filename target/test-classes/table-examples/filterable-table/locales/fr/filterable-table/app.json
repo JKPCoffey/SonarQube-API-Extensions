@@ -1,0 +1,8 @@
+{
+	"title": "Tableau Filtré",
+	"level": "Intermédiaire",
+	"description": [
+		"L'exemple du Tableau Filtré montre comment créer un tableau avec une option pour filtrer un seul type de données.",
+		"Il affiche un tableau de cinq colonnes d'entiers générés au hasard. Le tableau comporte des entêtes secondaires personnalisés pour afficher les champs de filtre. Chaque champ définit un filtre supplémentaire lorsqu'il est spécifié."
+	]
+}

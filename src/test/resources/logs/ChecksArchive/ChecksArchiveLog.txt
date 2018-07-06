@@ -1,0 +1,9 @@
+getDomainSubdomainPrimaryChecks:
+	Primary Checks for Columns:
+		ResizableColumnsCheck
+
+	Primary Checks for Settings:
+		MandatoryColumnsCheck
+		TableSettingsCheck
+		ApplyCancelFlyoutCheck
+		PinnedColumnsCheck

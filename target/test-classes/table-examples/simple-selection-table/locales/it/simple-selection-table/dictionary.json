@@ -1,0 +1,25 @@
+{
+	"details": {
+		"noSelection": {
+			"header": "Nessun utente selezionati",
+			"message": "Selezionare un utente per vedere i suoi dettagli"
+		}
+	},
+	"actions": {
+		"viewDetails": "Vedere i dettagli",
+		"deleteSelection": "Cancellare la selezione"
+	},
+	"table": {
+		"header": "Lista degli utenti",
+		"noData": {
+			"header": "Nessun dato",
+			"message": "In questo esempio, aggiornare il browser per ripristinare tutti i dati"
+		}
+	},
+	"user": {
+		"details": "Dettagli degli utenti",
+		"firstName": "Nome",
+		"lastName": "Cognome",
+		"role": "Ruolo"
+	}
+}

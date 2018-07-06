@@ -1,0 +1,79 @@
+<div class="elNetworkExplorerLib-rResults">
+    <div class="elNetworkExplorerLib-rResults-loadingAnimation elNetworkExplorerLib-rResults-loadingAnimation_hidden">
+        <div class="ebLoader">
+            <div class="ebLoader-Holder">
+                <span class="ebLoader-Dots"></span>
+            </div>
+            <p class="elNetworkExplorerLib-rResults-loadingMessage">
+                {{ strings.loading }}
+            </p>
+        </div>
+    </div>
+    <div class="elNetworkExplorerLib-rResults-sortLoading elNetworkExplorerLib-rResults-sortLoading_hidden">
+        <span class="ebLoader ebLoader-Dots elNetworkExplorerLib-rResults-sortDots"></span>
+    </div>
+    <div class="elNetworkExplorerLib-rResults-message elNetworkExplorerLib-rResults-infoMessage">
+        <h2 class="elNetworkExplorerLib-rResults-messageHeaderWrapper">
+            <div>
+                <i class="ebIcon ebIcon_large ebIcon_dialogInfo"></i>
+            </div>
+            <span class="elNetworkExplorerLib-rResults-messageHeader">{{ strings.infoHeader }}</span>
+        </h2>
+        <p class="elNetworkExplorerLib-rResults-messageParagraph">
+            {{ strings.infoParagraph }}
+        </p>
+    </div>
+    <div class="elNetworkExplorerLib-rResults-message elNetworkExplorerLib-rResults-errorMessage elNetworkExplorerLib-rResults-message_hidden">
+        <h2 class="elNetworkExplorerLib-rResults-messageHeaderWrapper">
+            <div>
+                <i class="ebIcon ebIcon_large ebIcon_error"></i>
+            </div>
+            <span class="elNetworkExplorerLib-rResults-messageHeader elNetworkExplorerLib-rResults-errorMessageHeader"></span>
+        </h2>
+        <p class="elNetworkExplorerLib-rResults-messageParagraph elNetworkExplorerLib-rResults-errorMessageParagraph"></p>
+        <p class="elNetworkExplorerLib-rResults-messageParagraph">
+            <a class="elNetworkExplorerLib-rResults-systemLogsLink" href="#help/app/networkexplorer">{{ strings.systemLogsLinkText }}</a>
+        </p>
+    </div>
+    <div class="elNetworkExplorerLib-rResults-message elNetworkExplorerLib-rResults-noResultsMessage elNetworkExplorerLib-rResults-message_hidden">
+        <h2 class="elNetworkExplorerLib-rResults-messageHeaderWrapper">
+            <div>
+                <i class="ebIcon ebIcon_large ebIcon_dialogInfo"></i>
+            </div>
+            <span class="elNetworkExplorerLib-rResults-messageHeader">{{ strings.noResultsHeader }}</span>
+        </h2>
+        <div class="elNetworkExplorerLib-rResults-messageParagraph elNetworkExplorerLib-rResults-noResultsParagraph"></div>
+    </div>
+    <div class="elNetworkExplorerLib-rResults-actionPanel elNetworkExplorerLib-rResults-actionPanel_hidden">
+        <div class="elNetworkExplorerLib-rResults-actionPanel-left">
+            <label class="elNetworkExplorerLib-rResults-actionPanel-left-resultsLabel">{{ strings.results }}</label>
+            <p class="elNetworkExplorerLib-rResults-actionPanel-left-resultCount"></p>
+            <span class="elNetworkExplorerLib-rResults-actionPanel-left-resultsSeparator"></span>
+            <span class="elNetworkExplorerLib-rResults-actionPanel-left-selectedObjectCount">{{ strings.numberOfSelectedObjects }}</span>
+            <div class="elNetworkExplorerLib-rResults-actionPanel-left-clearSelection elNetworkExplorerLib-rResults-actionPanel-left-clearSelection_hidden">
+                <span class="elNetworkExplorerLib-rResults-actionPanel-left-clearSelection-separator">-</span>
+                <a class="elNetworkExplorerLib-rResults-actionPanel-left-clearSelection-link">{{ strings.clear }}</a>
+            </div>
+            <span class="elNetworkExplorerLib-rResults-actionPanel-left-resultsWarning"></span>
+        </div>
+        <div class="elNetworkExplorerLib-rResults-actionPanel-right elNetworkExplorerLib-rResults-actionPanel-right_hidden">
+            <div style="display: inline-block">
+                <label>
+                <span class="elCollectionsSavedSearchesWidget-wListItem-checkboxWrapper">
+                    <input class="col-highlighting-checkbox ebCheckbox" type="checkbox"/>
+                    <span class="ebCheckbox-inputStatus"></span>
+                </span>
+                    <span class="ebCheckbox-label elNetworkExplorerLib-rResults-actionPanel-right-label">{{ strings.enableColumnHighlighting }}</span>
+                </label>
+            </div>
+            <div class="ebInfoPopup elNetworkExplorerLib-rResults-actionPanel-right-infoPopup">
+                <span class="elNetworkExplorerLib-rResults-actionPanel-right-infoIconHolder"></span>
+            </div>
+            <span class="elNetworkExplorerLib-rResults-actionPanel-right-separator" ></span>
+            <label class="elNetworkExplorerLib-rResults-actionPanel-right-label"></label>
+            <button class="elNetworkExplorerLib-rResults-actionPanel-right-settings ebBtn ebBtn_subtle"><i class="ebIcon ebIcon_settings"></i></button>
+        </div>
+    </div>
+    <div class="elNetworkExplorerLib-rResults-collectionSizeWarning elNetworkExplorerLib-rResults-collectionSizeWarning_hidden"></div>
+    <div class="elNetworkExplorerLib-rResults-tableHolder"></div>
+</div>

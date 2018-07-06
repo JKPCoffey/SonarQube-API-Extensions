@@ -1,0 +1,7 @@
+{
+	"title": "Expandable Row Table",
+	"description": [
+		"The Expandable Row Table example shows how to create a table with expandable rows and custom expanded content.",
+		"It displays a table showing a sub set of the user's details on the row. After expanding the row, the full user's details are visible."
+	]
+}

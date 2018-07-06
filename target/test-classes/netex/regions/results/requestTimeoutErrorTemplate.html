@@ -1,0 +1,12 @@
+<div>
+    <p>{{titleParagraph}}</p>
+    {{#if listTitle}}
+    <p><b>{{listTitle}}</b></p>
+    <ul>
+        {{#each listItems}}
+        <li>{{this}}</li>
+        {{/each}}
+    </ul>
+    {{/if}}
+    <p>{{tryAgainParagraph}}</p>
+</div>

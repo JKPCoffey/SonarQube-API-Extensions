@@ -1,0 +1,45 @@
+@widgetClass: eaPaginatedTable-wUserTable;
+
+.@{widgetClass} {
+    height: 100%;
+    padding: 16px 0;
+    box-sizing: border-box;
+
+    &-header {
+        font-size: 0;
+        border-bottom: 1px solid #333;
+        margin-bottom: 8px;
+    }
+
+    &-text,
+    &-selectHolder {
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    &-text {
+        font-size: 2rem;
+        line-height: 2.4rem;
+        width: calc(~'100% - 100px');
+    }
+
+    &-selectHolder {
+        width: 100px;
+        padding: 4px 0;
+        box-sizing: border-box;
+        text-align: right;
+    }
+
+    &-table_loading {
+        min-height: 250px;
+        opacity: .4;
+
+        & + .@{widgetClass}-loader {
+            display: block;
+        }
+    }
+
+    &-loader {
+        display: none;
+    }
+}

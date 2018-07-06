@@ -1,0 +1,7 @@
+{
+	"title": "Paginated Table Layout",
+	"description": [
+		"The Paginated Table Layout example shows the best UX practices to display tabular data in a paginated way.",
+		"It uses the PaginatedTable layout which provides a full implementation of the table guidelines"
+	]
+}

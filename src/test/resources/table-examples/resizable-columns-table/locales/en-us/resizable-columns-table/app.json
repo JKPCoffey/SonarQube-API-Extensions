@@ -1,0 +1,7 @@
+{
+	"title": "Resizable Columns Table",
+	"description": [
+		"The Resizable Columns Table example shows how to add support for resizable columns and set a default column width.",
+		"It displays a table with 5 columns and various content widths. The table shows horizontal scrolling on smaller screens."
+	]
+}

@@ -1,0 +1,31 @@
+<div class="elBulkImportLib-wCustomContent">
+    <ul class="elBulkImportLib-wCustomContent-contentHolder eb_scrollbar">
+
+        {{#checkIfAction}}
+        <li class="elBulkImportLib-wCustomContent-itemValue">
+            <span class="elBulkImportLib-wCustomContent-title">{{dictionary.actionHeader}}</span>
+            <span class="elBulkImportLib-wCustomContent-value">{{this.actionName}}</span>
+        </li>
+        {{/checkIfAction}}
+
+        {{#checkIfErroredRow isExecuted}}
+            <div class="elBulkImportLib-wCustomContent-notification"></div>
+        {{/checkIfErroredRow}}
+
+        {{#checkIfAttributesNotExist}}
+        <li class="elBulkImportLib-wCustomContent-itemValue">
+            <span class="elBulkImportLib-wCustomContent-title">{{dictionary.parameterName}}</span>
+            <span class="elBulkImportLib-wCustomContent-title">{{dictionary.suppliedValue}}</span>
+            <span class="elBulkImportLib-wCustomContent-title">{{dictionary.currentValue}}</span>
+
+        </li>
+        {{/checkIfAttributesNotExist}}
+        {{#each data}}
+        <li class="elBulkImportLib-wCustomContent-itemValue">
+            <span class="elBulkImportLib-wCustomContent-value">{{@key}}</span>
+            <span class="elBulkImportLib-wCustomContent-value" title="{{getBooleanAsString this.modifiedValue}}">{{getBooleanAsString this.modifiedValue}}</span>
+            <span class="elBulkImportLib-wCustomContent-value">{{getBooleanAsString this.currentValue}}</span>
+        </li>
+        {{/each}}
+    </ul>
+</div>

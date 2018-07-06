@@ -1,0 +1,7 @@
+{
+	"title": "Tableau avec Cellules Customisées",
+	"description": [
+		"L'exemple du Tableau avec Cellules Customisées montre comment customiser les cellules d'un tableau.",
+		"Il affiche un tableau où la date de naissance et le statut de l'utilisateur sont affichés dans des cellules customisées."
+	]
+}

@@ -1,0 +1,1 @@
+typeSearchIndex = [{"p":"org.sonar.samples.javascript.checks","l":"FlyoutCheck"},{"p":"org.sonar.samples.javascript.checks","l":"TableSettingsCheck"}]

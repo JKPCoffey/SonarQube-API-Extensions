@@ -1,0 +1,8 @@
+{
+	"title": "Virtual Scroll Table",
+	"level": "Advanced",
+	"description": [
+		"The Virtual Scroll Table example implements virtual scrolling for large datasets",
+		"It displays a sortable user table of 50 000 entries and simulates a network latency adding a delay before displaying the next segment of data."
+	]
+}

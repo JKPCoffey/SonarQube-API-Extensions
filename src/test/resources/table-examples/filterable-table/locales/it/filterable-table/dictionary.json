@@ -1,0 +1,16 @@
+{
+	"comparator": {
+		"equal": "Uguale",
+		"notEqual": "Differente da",
+		"higher": "Superiore a",
+		"lower": "Inferiore a"
+	},
+	"table": {
+		"typeToFilter": "Scrivere per filtrare",
+		"column": "Colonna",
+		"noData": {
+			"header": "Nessun Risultato",
+			"message": "Non abbiamo trovato nulla che corrisponde ai vostri filtri"
+		}
+	}
+}

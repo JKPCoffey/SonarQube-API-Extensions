@@ -1,0 +1,6 @@
+projectKey=tableLibrary
+serverUrl=http://localhost:9000
+serverVersion=7.0.0.36138
+dashboardUrl=http://localhost:9000/dashboard/index/tableLibrary
+ceTaskId=AWG9_dN5yUW_jBt-X3LP
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AWG9_dN5yUW_jBt-X3LP

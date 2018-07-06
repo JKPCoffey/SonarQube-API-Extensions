@@ -1,0 +1,24 @@
+#!/usr/bin/env bash
+
+set -e
+
+cd ./examples
+
+rm -rf .cdt
+cdt2 package install --autofill
+
+echo "-------------------------------------------"
+echo "Linking to libraries and child applications"
+
+for childApp in ../*; do
+    if [ "$childApp" == "../examples" ] || [ "$childApp" == "../script" ]; then
+       continue
+    fi
+
+    cdt2 package link ${childApp}
+done
+
+echo "-----------------------"
+echo "Linking to the tablelib"
+
+cdt2 package link ../../

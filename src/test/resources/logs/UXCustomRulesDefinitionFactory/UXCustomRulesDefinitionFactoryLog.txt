@@ -1,0 +1,5 @@
+allTableDefinitions:
+	Custom ux Table Settings SonarQube Rules Example
+	Custom UX Table Row Selection SonarQube Rules Example
+	Custom UX Table Resizable Column SonarQube Rules Example
+	UX

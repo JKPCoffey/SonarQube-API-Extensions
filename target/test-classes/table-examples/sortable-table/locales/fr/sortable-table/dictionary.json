@@ -1,0 +1,14 @@
+{
+	"actions": {
+		"multiSort": "Passer au tri par multiples colonnes",
+		"simpleSort": "Passer au tri par colonne simple"
+	},
+	"table": {
+		"sortLimitReached": "Nombre maximum de colonnes triées atteind",
+		"continent": "Continent",
+		"country": "Pays",
+		"city": "Ville",
+		"population": "Population",
+		"description": "Description"
+	}
+}

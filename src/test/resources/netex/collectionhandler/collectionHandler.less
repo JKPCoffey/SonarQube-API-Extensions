@@ -1,0 +1,89 @@
+.elNetworkExplorerLib-rCollectionHandler {
+    height:100%;
+    padding-left: 2px;
+    overflow-y: hidden;
+
+    &-contentWrapper {
+
+        &-inlineError {
+            padding-top: 5px;
+            width: 100%;
+
+            &Width {
+                width: calc(~'100% - 21px');
+            }
+
+            &_hidden {
+                display: none;
+            }
+
+            &Message {
+                padding-left: 0px;
+                padding-right: 0px;
+            }
+
+            &-notification {
+                width: 100%;
+            }
+        }
+
+        &-chooseBlock {
+            padding-top: 5px;
+            border-bottom: 1px solid #ccc;
+        }
+
+        &-insertOrSelectBlock {
+            position:relative;
+            height: calc(~'100% - 70px');
+        }
+    }
+
+    &-actionButtons {
+        position: absolute;
+        left: 0px;
+        right: 0px;
+        background-color: white;
+
+        &-buttonDivider {
+            width: 100%;
+            border-top: 1px solid #ccc;
+            padding-bottom: 5px;
+        }
+
+        &-addNoteBlock {
+            padding-top: 5px;
+            margin: 10px 0 6px 0;
+            color: gray;
+            font-style: italic;
+            font-size: 12px;
+
+            &_hidden {
+                display: none;
+            }
+        }
+
+        &-buttonsBlock {
+            display: inline-block;
+            padding-top: 5px;
+
+            &-submitButton {
+            }
+
+            &-divider {
+                padding-left: 12px;
+                display: inline-block;
+            }
+
+            &-cancelButton {
+            }
+        }
+    }
+
+    &_tall &-contentWrapper {
+        height: calc(~'100% - 50px');
+    }
+
+    &_tall &-actionButtons {
+        bottom: 0px;
+    }
+}

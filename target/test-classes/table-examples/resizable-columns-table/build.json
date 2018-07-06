@@ -1,0 +1,29 @@
+{
+	"parent": "$(parentJson)/app.json",
+	"defaultPhase": "package",
+	"properties": {
+		"package": "resizable-columns-table",
+		"name": "ResizableColumnsTable",
+		"version": "1.0.0",
+		"skeleton": "2.1.2",
+		"skeletonType": "app"
+	},
+	"phases": {
+		"package": {
+			"depends": [
+				"clean",
+				"analyze",
+				"compile"
+			]
+		}
+	},
+	"dependencies": {
+		"jscore": "1.7.16",
+		"container": "1.14.11",
+		"i18n": "2.4.5",
+		"assets": "1.8.6",
+		"layouts": "1.8.4",
+		"tablelib": "0.9.10",
+		"widgets": "1.8.19"
+	}
+}

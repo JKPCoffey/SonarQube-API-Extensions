@@ -1,0 +1,8 @@
+{
+	"title": "Tableau à Défilement Virtuel",
+	"level": "Avancé",
+	"description": [
+		"L'exemple du Tableau à Défilement Virtuel implémente le défilement virtuel pour afficher un grand ensemble de données.",
+		"Il affiche un tableau d'utilisateurs triable de 50 000 entrées et simule une latence du réseau en ajoutant un retard avant d'afficher le prochain segment de données."
+	]
+}

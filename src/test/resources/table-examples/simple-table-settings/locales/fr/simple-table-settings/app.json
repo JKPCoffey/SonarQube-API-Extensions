@@ -1,0 +1,7 @@
+{
+	"title": "Simple Configuration de Tableau",
+	"description": [
+		"L'exemple de la Simple Configuration de Tableau implémente un tableau personnalisable où l'utilisateur peut décider l'ordre des colonnes ainsi que les colonnes à cacher.",
+		"Il affiche un tableau personnalisable grâce au panneau de configuration. Le panneau est exposé par le bouton de configuration dans l'en-tête du tableau et utilise le composant Flyout."
+	]
+}

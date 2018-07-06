@@ -1,0 +1,56 @@
+.eaExamples-wApplicationList {
+
+    //-------------------------------------
+
+    @screen-768: 768px;
+    @screen-1280: 1280px;
+
+    //-------------------------------------
+
+    font-size: 0;
+
+    @media (min-width: @screen-768) {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    &-item {
+        display: block;
+        font-size: 1.2rem;
+
+        @media (min-width: @screen-768) {
+            display: inline-block;
+            vertical-align: top;
+            margin: 12px;
+            box-sizing: border-box;
+            flex-basis: calc(~'50% - 12px');
+
+            &:nth-of-type(odd) {
+                margin-left: 0;
+            }
+
+            &:nth-of-type(even) {
+                margin-right: 0;
+            }
+        }
+
+        @media (min-width: @screen-1280) {
+            flex-basis: calc(~'33.3% - 2 * 12px');
+
+            &:nth-of-type(even),
+            &:nth-of-type(odd) {
+                margin: 12px;       // need to reset the value defined for 768 screens
+            }
+
+            &:nth-of-type(3n+1) {
+                margin-left: 0;
+            }
+
+            &:nth-of-type(3n) {
+                margin-right: 0;
+            }
+        }
+    }
+}

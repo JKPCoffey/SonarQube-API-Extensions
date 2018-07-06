@@ -1,0 +1,25 @@
+{
+	"comparator": {
+		"equal": "Uguale",
+		"notEqual": "Differente da",
+		"higher": "Superiore a",
+		"lower": "Inferiore a",
+		"startsWith": "Inizia con",
+		"endsWith": "Finisce con",
+		"contains": "Contiene"
+	},
+	"table": {
+		"typeToFilter": "Scrivere per filtrare",
+		"noData": {
+			"header": "Nessun Risultato",
+			"message": "Non abbiamo trovato nulla che corrisponde ai vostri filtri"
+		}
+	},
+	"user": {
+		"id": "Id",
+		"firstName": "Nome",
+		"lastName": "Cognome",
+		"dob": "Data di nascita",
+		"status": "Status"
+	}
+}

@@ -1,0 +1,9 @@
+{
+	"instructions": "Click on the table items to drill down in the hierarchy.",
+	"table": {
+		"id": "Id",
+		"name": "Name",
+		"parent": "Parent",
+		"hasChildren": "Children"
+	}
+}

@@ -1,0 +1,31 @@
+.eaExpandableRowTable-wCustomRowContent {
+    padding: 0 16px 8px 32px;
+    width: 100%;
+    box-sizing: border-box;
+
+    &-list {
+        display: inline-block;
+
+        &Item {
+            font-size: 0;
+        }
+    }
+
+    &-label,
+    &-value {
+        display: inline-block;
+        vertical-align: top;
+        font-size: 1.2rem;
+    }
+
+    &-label {
+        width: 140px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    &-value {
+        width: calc(~'100% - 140px');
+        white-space: normal;
+    }
+}

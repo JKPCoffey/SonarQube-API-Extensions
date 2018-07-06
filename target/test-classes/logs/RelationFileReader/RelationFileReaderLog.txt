@@ -1,0 +1,20 @@
+getSubdomainsFileTest:
+	Subdomains from File:
+		Low_Dog
+		Mid_Dog
+
+getSubdomainsFilenameTest:
+	Subdomains from Filename:
+		Low_Dog
+		Mid_Dog
+
+getDomainsFileTest:
+	Domains from File:
+		Top_Dog
+		Top_Dog
+
+getDomainsFilenameTest:
+	Domains from Filename:
+		Top_Dog
+		Top_Dog
+

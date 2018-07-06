@@ -1,0 +1,8 @@
+{
+	"title": "Tableau de type drill-down",
+	"level": "Avancé",
+	"description": [
+		"L'exemple du Tableau de type drill-down monntre comment utiliser la Table Library pour illustrer un grand nombre de données organisées de manière imbriquée.",
+		"Il affiche un grand nombre de données générées au hasard dans un tableau. Un double clic sur une ligne remplace le contenu du tableau actuel avec les sous éléments de l'élément cliqué. L'en-tête affiche le niveau actuel et permet de naviguer en arrière."
+	]
+}

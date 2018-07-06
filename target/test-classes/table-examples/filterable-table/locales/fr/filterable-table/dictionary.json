@@ -1,0 +1,16 @@
+{
+	"comparator": {
+		"equal": "Égal",
+		"notEqual": "Différent de",
+		"higher": "Plus grand que",
+		"lower": "Plus petit que"
+	},
+	"table": {
+		"typeToFilter": "Tapez pour filter",
+		"column": "Colonne",
+		"noData": {
+			"header": "Aucun Résultat",
+			"message": "Rien n'a été trouvé correspondant à vos filtres"
+		}
+	}
+}

@@ -1,0 +1,8 @@
+{
+	"title": "Tableau Filtré (adv)",
+	"level": "Avancé",
+	"description": [
+		"L'exemple du Tableau Filtré montre comment créer un tableau avec une option pour filtrer différent types de données.",
+		"Le tableau comporte des entêtes secondaires personnalisés pour afficher les champs de filtre. Chaque champ définit un filtre supplémentaire lorsqu'il est spécifié. Les données filtrées sont composées d'entiers, de texte, de date et de booléens."
+	]
+}

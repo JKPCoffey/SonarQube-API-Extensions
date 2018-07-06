@@ -1,0 +1,40 @@
+AllCheckTests:
+	Run 1:	TableCheck
+	false
+
+AllCheckTests:
+	Run 2:	ArrayLiteralResizeCheck
+	false
+
+AllCheckTests:
+	Run 3:	ResizableColumnsCheck
+	true
+
+AllCheckTests:
+	Run 4:	SelectionCheck
+	true
+
+AllCheckTests:
+	Run 5:	ApplyCancelFlyoutCheck
+	true
+
+AllCheckTests:
+	Run 6:	MandatoryColumnsCheck
+	true
+
+AllCheckTests:
+	Run 7:	PinnedColumnsCheck
+	true
+
+AllCheckTests:
+	Run 8:	TableSettingsCheck
+	true
+
+AllCheckTests:
+	Run 9:	TooltipsCheck
+	true
+
+AllCheckTests:
+	Run 10:	BlankFileCheck
+	false
+

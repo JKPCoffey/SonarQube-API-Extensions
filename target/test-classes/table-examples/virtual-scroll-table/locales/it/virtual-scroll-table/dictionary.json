@@ -1,0 +1,11 @@
+{
+	"table": {
+		"header": "Lista degli utenti"
+	},
+	"user": {
+		"id": "Id",
+		"firstName": "Nome",
+		"lastName": "Cognome",
+		"role": "Role"
+	}
+}

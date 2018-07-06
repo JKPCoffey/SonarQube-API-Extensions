@@ -1,0 +1,8 @@
+{
+	"title": "Tree Table",
+	"level": "Intermediate",
+	"description": [
+		"The Tree Table example shows how to create a table with expandable tree nested structure.",
+		"It displays a table with three levels of hierarchical data and resizable columns"
+	]
+}

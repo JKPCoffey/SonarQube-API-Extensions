@@ -1,0 +1,7 @@
+allExamplesTest:
+	With Flyouts:
+	pinned-column-table
+	simple-table-settings
+
+	Without Flyouts:
+		TableWithoutFlyout.js

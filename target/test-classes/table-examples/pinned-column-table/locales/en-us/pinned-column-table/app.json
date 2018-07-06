@@ -1,0 +1,7 @@
+{
+	"title": "Pinned Column Table",
+	"description": [
+		"The Pinned Column Table example shows how to improve the readability of some tables. It locks important columns in place, allowing the other columns to horizontally scroll behind them.",
+		"It displays a table where the user's id, first name and last name remain in place while the columns showing the other attributes scroll horizontally as the table is too large to fit horizontally. The Table Settings panel allow the user to enable pinning and unpinning of columns."
+	]
+}

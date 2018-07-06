@@ -1,0 +1,8 @@
+{
+	"title": "Filterable Table",
+	"level": "Intermediate",
+	"description": [
+		"The Filterable Table example shows how to create a table with filter options for a single data type.",
+		"It displays a table with five columns of randomly generated integers. The table has custom second headers to display the filter fields. Each field sets an additional filter when defined."
+	]
+}

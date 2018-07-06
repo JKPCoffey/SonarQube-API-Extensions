@@ -1,0 +1,64 @@
+{
+	"userTable": {
+		"header": "System Users",
+		"username": "Username",
+		"status": "Status",
+		"activated": "Activated",
+		"deactivated": "Deactivated",
+		"firstName": "First Name",
+		"lastName": "Last Name",
+		"role": "Role",
+		"email": "e-mail",
+		"lastLogin": "Last Login"
+	},
+	"filterForm": {
+		"username": {
+			"label": "Username",
+			"info": "Keep all users with username containing the string provided",
+			"placeholder": "Username"
+		},
+		"firstName": {
+			"label": "First Name",
+			"info": "Keep all users with the first name containing the string provided",
+			"placeholder": "First Name"
+		},
+		"lastName": {
+			"label": "Last Name",
+			"info": "Keep all users with the last name containing the string provided",
+			"placeholder": "Last Name"
+		},
+		"role": {
+			"label": "Role",
+			"info": "Keep all users with the role containing the string provided",
+			"placeholder": "Role"
+		},
+		"status": {
+			"label": "Status",
+			"info": "Keep all users with the following status",
+			"items": [
+				{
+					"name": "All"
+				},
+				{
+					"name": "Activated"
+				},
+				{
+					"name": "Deactivated"
+				}
+			]
+		},
+		"email": {
+			"label": "e-mail",
+			"info": "Keep all users with the e-mail containing the string provided",
+			"placeholder": "e-mail"
+		},
+		"lastLogin": {
+			"label": "Last Login",
+			"info": "Keep all users with the e-mail containing the string provided",
+			"placeholder": "Last Login"
+		}
+	},
+	"actions": {
+		"deleteSelection": "Delete"
+	}
+}

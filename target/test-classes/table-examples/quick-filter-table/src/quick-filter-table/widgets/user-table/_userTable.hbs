@@ -1,0 +1,21 @@
+<div class="eaQuickFilterTable-wUserTable">
+    <header class="eaQuickFilterTable-wUserTable-header">
+        <div class="eaQuickFilterTable-wUserTable-title">
+            <div class="eaQuickFilterTable-wUserTable-titleText">{{title}}</div>
+            <div class="eaQuickFilterTable-wUserTable-filterInfo">
+                <div class="eaQuickFilterTable-wUserTable-filterText">{{filtersApplied}} -</div>
+                <div class="eaQuickFilterTable-wUserTable-filterClear ebColor_textLinkBlue">{{clear}}</div>
+            </div>
+        </div>
+        {{~noWhiteSpace~}}
+        <ul class="eaQuickFilterTable-wUserTable-actions">
+            <li class="eaQuickFilterTable-wUserTable-action">
+                <button class="ebBtn ebBtn_subtle eaQuickFilterTable-wUserTable-filter" title="{{toggleFilter}}">
+                    <i class="ebIcon ebIcon_filterOff"></i>
+                </button>
+            </li>
+        </ul>
+    </header>
+    <div class="eaQuickFilterTable-wUserTable-table"></div>
+    <div class="eaQuickFilterTable-wUserTable-message"></div>
+</div>

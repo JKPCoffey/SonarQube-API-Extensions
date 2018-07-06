@@ -1,0 +1,50 @@
+<div class="elBulkImportLib-wJobsTable">
+    <div class="elBulkImportLib-wJobsTable-errorPanel">
+        <div class="elBulkImportLib-wJobsTable-errorPanel-right">{{strings.jobFilterError}}</div>
+    </div>
+    <div class="elBulkImportLib-wJobsTable-actionPanel">
+        <div class="elBulkImportLib-wJobsTable-actionPanel-left">
+            <span class="elBulkImportLib-wJobsTable-actionPanel-left-title">{{strings.jobTable.tableName}}</span>
+            <p class="elBulkImportLib-wJobsTable-actionPanel-left-totalRows">(0)</p>
+            <div class="elBulkImportLib-wJobsTable-actionPanel-left-clearFilter" style="display:none"> {{strings.appliedFilters}}
+                <a class="elBulkImportLib-wJobsTable-actionPanel-left-clearFilter-Link" title="{{strings.clear}}">{{strings.clear}}</a>
+            </div>
+        </div>
+        <div class="elBulkImportLib-wJobsTable-actionPanel-right">
+            <button class="elBulkImportLib-wJobsTable-actionPanel-right-jobFilters ebBtn ebBtn_subtle"><i
+                class="ebIcon ebIcon_filter"></i></button>
+            <button class="elBulkImportLib-wJobsTable-actionPanel-right-settings ebBtn ebBtn_subtle"><i
+                class="ebIcon ebIcon_settings"></i></button>
+            <div class="elBulkImportLib-wJobsTable-actionPanel-right-filters">
+                <button type="button"
+                class="elBulkImportLib-wJobsTable-actionPanel-right-filters-myJobs ebBtn ebBtn_active"
+                title="{{strings.filter.myJobs}}">
+                    <span class="elBulkImportLib-wJobsFilter-container-myJobs-label">{{strings.filter.myJobs}}</span>
+                </button>
+                <div class="ebBtnGroup" style="margin-right: 10px; margin-left: 10px;">
+                    <label title="{{strings.filter.validationErrors}}">
+                        <input type="checkbox"
+                               value="1"
+                               class="elBulkImportLib-wJobsTable-actionPanel-right-filters-validation-errors"
+                        />
+                     <span class="ebBtn">{{strings.filter.validationErrors}}</span>
+                    </label>
+                    <label title="{{strings.filter.executionErrors}}">
+                        <input type="checkbox"
+                               value="1"
+                               class="elBulkImportLib-wJobsTable-actionPanel-right-filters-execution-errors"
+                        />
+                        <span class="ebBtn">{{strings.filter.executionErrors}}</span>
+                    </label>
+                </div>
+                <input type="text"
+                       class="elBulkImportLib-wJobsTable-actionPanel-right-filters-jobName ebInput_width_long"
+                       value=""
+                       placeholder="{{strings.filterByJobName}}"
+                />
+            </div>
+        </div>
+    </div>
+    <div class="elBulkImportLib-wJobsTable-body"></div>
+    <div class="elBulkImportLib-wJobsTable-messageArea" style="display: none;"></div>
+</div>

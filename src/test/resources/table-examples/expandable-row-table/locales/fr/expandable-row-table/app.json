@@ -1,0 +1,7 @@
+{
+	"title": "Tableau à Line Expansible",
+	"description": [
+		"L'exemple du Tableau à Line Expansible montre comment créer un tableau à line expansible et contenu customisé.",
+		"Il affiche un tableau exposant partiellement les détails de l'utilisateur. Après avoir ouvert la ligne, le détail complet de l'utilisateur est affiché."
+	]
+}

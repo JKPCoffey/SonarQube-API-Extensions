@@ -1,0 +1,15 @@
+{
+	"actions": {
+		"multiSort": "Swap to Multi Columns Sorting",
+		"simpleSort": "Swap to Simple Column Sorting"
+	},
+	"table": {
+		"sortLimitReached": "Multi column sorting limit reached",
+		"continent": "Continent",
+		"country": "Country",
+		"city": "City",
+		"population": "Population",
+		"description": "Description",
+		"sortInstruction": "To Select Multiple Columns hold the 'Ctrl' key when clicking, select up to 3 columns"
+	}
+}

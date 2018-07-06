@@ -1,0 +1,14 @@
+<div class="eaExamples-wAppDetails">
+    <div class="ebLayout-SectionHeading">
+        <h2>{{title}}</h2>
+    </div>
+
+    {{#if level}}
+        <div class="eaExamples-wAppDetails-level">{{level}}</div>
+    {{/if}}
+
+    {{#each description}}
+        <div class="eaExamples-wAppDetails-description">{{this}}</div>
+    {{/each}}
+    <a class="eaExamples-wAppDetails-link" href="#{{rootPackageName}}/{{packageName}}">View Example</a>
+</div>

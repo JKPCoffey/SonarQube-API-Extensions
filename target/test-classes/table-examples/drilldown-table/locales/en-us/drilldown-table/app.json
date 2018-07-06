@@ -1,0 +1,8 @@
+{
+	"title": "Drilldown Table",
+	"level": "Advanced",
+	"description": [
+		"The Drilldown Table example shows how to use the Table Library Table to display a large amount of data organized in a nested structure.",
+		"It displays a large amount of randomly generated data in a table. Double click on a row will drill down and replace the table content with the clicked element children. The header displays the current level and allows to navigate back up."
+	]
+}

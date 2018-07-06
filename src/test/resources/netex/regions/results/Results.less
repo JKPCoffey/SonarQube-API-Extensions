@@ -1,0 +1,231 @@
+.elNetworkExplorerLib-rResults {
+    height: 100%;
+    min-height: 50px; //show loading dots when criteria builder is expanded near or above screen height
+    width: 100%;
+    position: relative;
+
+    &-loadingAnimation {
+        text-align: center;
+        margin: 32px auto;
+        position:relative;
+
+        &_hidden {
+            display: none;
+        }
+    }
+
+    &-loadingMessage {
+        color: #7b0663;
+    }
+
+    &-sortLoading {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: table-cell;
+        z-index: 5;
+
+        &_hidden {
+            display: none;
+        }
+    }
+
+    &-cell {
+        &_inapplicableAttribute {
+            background-color: #f6f6f6;
+        }
+    }
+
+    &-message {
+        max-width: 430px;
+
+        &HeaderWrapper {
+            display: flex;
+        }
+
+        &Header {
+            padding-left: 18px;
+        }
+
+        &Paragraph {
+            padding-left: 48px;
+            word-wrap: break-word;
+            font-size: 1.2rem;
+            line-height: 2rem;
+            margin: 1em 0;
+        }
+
+        &_hidden {
+            display: none;
+        }
+    }
+
+    &-systemLogsLink {
+        transition: opacity 0.2s; //logs link depends on an async request to appear, hint to user
+        &_hidden {
+            pointer-events: none;
+            opacity: 0;
+        }
+    }
+
+    &-actionPanel {
+        overflow: auto;
+        padding-top: 2px;
+        padding-bottom: 6px;
+        &_hidden {
+            display: none;
+        }
+
+        &-left {
+            float: left;
+            &-resultCount {
+                display: inline;
+                &:after {
+                    content:")"
+                }
+                &:before {
+                    content:"("
+                }
+            }
+
+            &-resultsLabel {
+                font-size: 13px;
+                display: inline;
+                font-weight: bold;
+            }
+
+            &-resultsSeparator {
+                border-left: 1px solid #ccc;
+                margin-left: 6px;
+                margin-right: 10px;
+                height: 2.4rem;
+            }
+
+            &-selectedObjectCount {
+                font-size: 12px;
+                display: inline;
+            }
+
+            &-clearSelection {
+                display: inline;
+
+                &_hidden {
+                    display: none;
+                }
+
+                &-link {
+                    cursor: pointer;
+                    font-size: 12px;
+                }
+            }
+
+            &-resultsWarning {
+                display: none;
+                margin: 0 6px;
+            }
+
+            &-selectionThreshold {
+                display: inline-block;
+                &_hidden {
+                    display: none;
+                }
+            }
+
+            &_warning {
+                .elNetworkExplorerLib-rResults-actionPanel-left {
+                    &-resultCount {
+                        color: #f08a00;
+                    }
+
+                    &-resultsWarning {
+                        display: inline-block;
+                    }
+                }
+            }
+        }
+
+        &-right {
+            float: right;
+
+            &_hidden {
+                display: none;
+            }
+
+            &-actionsHolder, &-columnSortHolder, &-settingsHolder {
+                vertical-align: middle;
+                padding-right: 6px;
+                padding-left: 8px;
+
+            }
+
+            &-infoPopup {
+                display: inline-block;
+                margin-right: 8px
+            }
+
+            &-label {
+                vertical-align: middle;
+                padding-top: 0px;
+            }
+
+            &-separator {
+                border-left: 1px solid #ccc;
+                height: 2.4rem;
+                margin-right: 1px;
+                margin-top: -17px;
+            }
+        }
+    }
+
+    @media screen and (max-width:860px) {
+
+        &-actionPanel {
+            width: 100%;
+            height: auto;
+            margin:0;
+            &_hidden {
+                display: none;
+            }
+
+            &-left {
+                position:static;
+                width:100%;
+                height: auto;
+            }
+
+            &-right {
+                width:100%;
+                height: auto;
+                position:static;
+            }
+        }
+
+    }
+
+    &-collectionSizeWarning {
+        padding-bottom: 6px;
+
+        &_hidden {
+            display: none;
+        }
+    }
+
+    &-tableHolder {
+        height: 100%;
+        &_hidden {
+            display: none;
+        }
+
+        &_disabled {
+            pointer-events: none;
+            opacity: 0.4;
+        }
+    }
+
+    &-tableHolder_highlight-cols {
+        .elNetworkExplorerLib_tableHeader_contains-distinct {
+            box-shadow: inset 0px 0px 1px 2px #0065b2;
+        }
+    }
+}

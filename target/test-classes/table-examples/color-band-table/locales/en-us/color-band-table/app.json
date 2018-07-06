@@ -1,0 +1,7 @@
+{
+	"title": "Color Band Table",
+	"description": [
+		"The Color Band Table example shows how to add a color band at the beginning of each row",
+		"It displays a table where the user's status is both as a column and as a color band."
+	]
+}

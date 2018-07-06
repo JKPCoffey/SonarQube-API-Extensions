@@ -1,0 +1,7 @@
+{
+	"title": "Quick Filter Table",
+	"description": [
+		"The Quick Filter Table example shows how to simply create a table with a quick filter row which handles different data types.",
+		"It displays a table with a variety of types e.g. strings, integers, dates, boolean."
+	]
+}

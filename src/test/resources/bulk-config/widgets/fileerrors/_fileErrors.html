@@ -1,0 +1,17 @@
+<div class="elBulkImportLib-wFileErrors">
+    <div class="elBulkImportLib-wFileErrors-contentHolder eb_scrollbar">
+        <div class="elBulkImportLib-wFileErrors-title">{{data.failureReason}}</div>
+        {{#each data.failures}}
+            <div class="elBulkImportLib-wFileErrors-error">
+                <div class="elBulkImportLib-wFileErrors-item">
+                    <span class="elBulkImportLib-wFileErrors-label">{{../dictionary.fileErrors.lineNumber}}:</span>
+                    {{lineNumber}}
+                </div>
+                <div class="elBulkImportLib-wFileErrors-item">
+                    <span class="elBulkImportLib-wFileErrors-label">{{../dictionary.fileErrors.failureReason}}:</span>
+                    {{failureReason}}
+                </div>
+            </div>
+        {{/each}}
+    </div>
+</div>

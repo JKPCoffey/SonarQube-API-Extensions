@@ -1,0 +1,9 @@
+{
+	"instructions": "Clicca sulle voci nella tabella di scendere nella gerarchia",
+	"table": {
+		"id": "Id",
+		"name": "Nome",
+		"parent": "Elemento Superiore",
+		"hasChildren": "Elemento Inferiore"
+	}
+}

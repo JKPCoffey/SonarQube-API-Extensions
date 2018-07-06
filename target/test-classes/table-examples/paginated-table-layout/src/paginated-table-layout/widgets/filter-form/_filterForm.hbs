@@ -1,0 +1,34 @@
+<div class="eaPaginatedTableLayout-wFilterForm">
+    <e-element src="layouts/Form" e-id="form">
+        <form>
+            <field label="{{i18n.username.label}}" name="username" info="{{i18n.username.info}}">
+                <text placeholder="{{i18n.username.placeholder}}" {{#if data.username}}value="{{data.username}}"{{/if}} />
+            </field>
+
+            <field label="{{i18n.status.label}}" info="{{i18n.status.info}}" name="status">
+                <radiogroup>
+                    <option {{#if data.status.all}}selected="selected" {{/if}}value="all">{{i18n.status.items.all}}</option>
+                    <option {{#if data.status.activated}}selected="selected" {{/if}}value="true">{{i18n.status.items.activated}}</option>
+                    <option {{#if data.status.deactivated}}selected="selected" {{/if}}value="false">{{i18n.status.items.deactivated}}</option>
+                </radiogroup>
+            </field>
+
+            <field label="{{i18n.firstName.label}}" name="firstName" info="{{i18n.firstName.info}}">
+                <text placeholder="{{i18n.firstName.placeholder}}" {{#if data.firstName}}value="{{data.firstName}}"{{/if}} />
+            </field>
+
+            <field label="{{i18n.lastName.label}}" name="lastName" info="{{i18n.lastName.info}}">
+                <text placeholder="{{i18n.lastName.placeholder}}" {{#if data.lastName}}value="{{data.lastName}}"{{/if}} />
+            </field>
+
+            <field label="{{i18n.role.label}}" name="role" info="{{i18n.role.info}}">
+                <text placeholder="{{i18n.role.placeholder}}" {{#if data.info}}value="{{data.info}}"{{/if}} />
+            </field>
+
+            <field label="{{i18n.email.label}}" name="email" info="{{i18n.email.info}}">
+                <text placeholder="{{i18n.email.placeholder}}" {{#if data.email}}value="{{data.email}}"{{/if}} />
+            </field>
+        </form>
+    </e-element>
+</div>
+<e-link src="./_filterForm.less"/>

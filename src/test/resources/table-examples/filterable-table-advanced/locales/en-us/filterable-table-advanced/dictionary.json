@@ -1,0 +1,25 @@
+{
+	"comparator": {
+		"equal": "Equal",
+		"notEqual": "Different than",
+		"higher": "Higher than",
+		"lower": "Lower than",
+		"startsWith": "Starts with",
+		"endsWith": "Ends with",
+		"contains": "Contains"
+	},
+	"table": {
+		"typeToFilter": "Type to filter",
+		"noData": {
+			"header": "No Match Found",
+			"message": "Nothing was found matching your filters."
+		}
+	},
+	"user": {
+		"id": "Id",
+		"firstName": "First Name",
+		"lastName": "Last Name",
+		"dob": "Date of Birth",
+		"status": "Status"
+	}
+}

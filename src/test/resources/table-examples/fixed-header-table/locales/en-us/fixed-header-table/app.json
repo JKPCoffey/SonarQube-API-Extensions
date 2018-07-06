@@ -1,0 +1,7 @@
+{
+	"title": "Fixed Header Table",
+	"description": [
+		"The Fixed Header Table example shows how to set the header row to be fixed on the top and let the content scroll independently.",
+		"It displays a table of a hundred rows with three columns and a fixed height."
+	]
+}

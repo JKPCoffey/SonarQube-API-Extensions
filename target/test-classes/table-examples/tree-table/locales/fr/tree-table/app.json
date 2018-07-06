@@ -1,0 +1,8 @@
+{
+	"title": "Tableau en Arborescence",
+	"level": "Intermédiaire",
+	"description": [
+		"L'exemple du Tableau en Arborescence montre comment créer un tableau imbriqué avec les lignes extensibles.",
+		"Il affiche un tableau avec trois niveaux de données hiérarchiques et des colonnes redimensionnables."
+	]
+}

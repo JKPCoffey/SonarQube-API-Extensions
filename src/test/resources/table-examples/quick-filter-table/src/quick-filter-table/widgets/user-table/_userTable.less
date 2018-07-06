@@ -1,0 +1,89 @@
+.eaQuickFilterTable {
+    &-icon {
+        &_filter {
+            background: url('@{resources-url}/filters.svg');
+        }
+        &_filterEnabled {
+            background: url('@{resources-url}/filters_enabled.svg');
+        }
+        &_filterEnabledB {
+            background: url('@{resources-url}/filters_enabled-01.svg');
+        }
+    }
+}
+
+.eaQuickFilterTable-wUserTable {
+    position: relative;
+    height: 100%;
+    padding: 8px 0;
+
+    &-message {
+        text-align: center;
+        font-size: 1.6rem;
+        padding: 8px 0;
+    }
+
+    &-header {
+        position: relative;
+        border-bottom: 1px solid #333;
+        padding-bottom: 8px;
+        margin-bottom: 8px;
+    }
+
+    &-title {
+        display: inline-block;
+        width: calc(~'100% - 24px');
+        padding-right: 12px;
+        box-sizing: border-box;
+        vertical-align: middle;
+
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+
+        &Text {
+            display: inline-block;
+            font-size: 20px;
+            line-height: 24px;
+        }
+    }
+
+    &-filter {
+        &Info {
+            display: none;
+            padding-left: 8px;
+        }
+
+        &Text,
+        &Clear {
+            display: inline-block;
+        }
+
+        &Clear {
+            cursor: pointer;
+        }
+    }
+
+    &-actions {
+        position: absolute;
+        top: 0;
+        right: 0;
+
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    &-action {
+        display: inline-block;
+        padding-right: 4px;
+
+        &:last-of-type {
+            padding-right: 0;
+        }
+    }
+
+    &_filtered .eaQuickFilterTable-wUserTable-filterInfo {
+        display: inline-block;
+    }
+}

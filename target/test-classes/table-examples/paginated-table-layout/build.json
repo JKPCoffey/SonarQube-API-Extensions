@@ -1,0 +1,30 @@
+{
+	"parent": "$(parentJson)/app.json",
+	"defaultPhase": "package",
+	"properties": {
+		"package": "paginated-table-layout",
+		"name": "PaginatedTableLayout",
+		"version": "1.0.0",
+		"skeleton": "2.3.0",
+		"skeletonType": "app"
+	},
+	"phases": {
+		"package": {
+			"depends": [
+				"clean",
+				"analyze",
+				"compile"
+			]
+		}
+	},
+	"dependencies": {
+		"uit": "0.3.5",
+		"jscore": "1.7.16",
+		"container": "1.14.11",
+		"i18n": "2.4.5",
+		"assets": "1.8.6",
+		"layouts": "1.8.4",
+		"tablelib": "0.9.10",
+		"widgets": "1.8.19"
+	}
+}

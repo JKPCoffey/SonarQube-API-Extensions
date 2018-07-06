@@ -1,0 +1,8 @@
+{
+	"title": "Paginated Table",
+	"level": "Intermediate",
+	"description": [
+		"The Paginated Table example implements a server side pagination. The mechanism combines the Table and the Pagination widget to display a large dataset.",
+		"It displays a table of 50 000 entries and simulates a network latency adding a delay before displaying the next page data."
+	]
+}

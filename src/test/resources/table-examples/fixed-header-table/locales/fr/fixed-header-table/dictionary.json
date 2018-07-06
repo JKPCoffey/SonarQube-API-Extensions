@@ -1,0 +1,7 @@
+{
+	"table": {
+		"firstName": "Prénom",
+		"lastName": "Nom",
+		"role": "Rôle"
+	}
+}

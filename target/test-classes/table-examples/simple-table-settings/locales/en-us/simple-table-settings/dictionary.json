@@ -1,0 +1,22 @@
+{
+	"form": {
+		"apply": "Apply",
+		"cancel": "Cancel"
+	},
+	"table": {
+		"header": "Users List",
+		"settings": "Table Settings"
+	},
+	"user": {
+		"firstName": "First Name",
+		"lastName": "Last Name",
+		"dob": "Date of Birth",
+		"role": "Role",
+		"status": "Status"
+	},
+	"columnSelectionLabels": {
+		"select": "Select",
+		"all": "All",
+		"none": "None"
+	}
+}

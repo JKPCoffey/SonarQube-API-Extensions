@@ -1,0 +1,7 @@
+{
+	"title": "Tableau à Selection Simple",
+	"description": [
+		"L'exemple du Tableau à Selection Simple montre comment implémenter les mécanismes de sélection standards: clic, contrôle clic, maj clic, tout sélectionner et tout désélectionner.",
+		"Il affiche un tableau avec dix lignes sélectionnables. La sélection d'une ou plusieurs lignes montre l'action contextuelle pour afficher les détails des utilisateurs sélectionnés."
+	]
+}

@@ -1,0 +1,39 @@
+<e-link src="./_executionErrorOptions.less" />
+<form e-id="executionerroroptionsform"  class="elBulkImportLib-wExecutionError">
+    <div class="elBulkImportLib-wExecutionError-primaryText">Changes may cause traffic disturbance.</div>
+    <input type="radio" style="display:none"/><!-- Preventing the default focus -->
+    <label>
+        <input class="ebRadioBtn"
+               type="radio"
+               name="executionPolicy"
+               e-id="executionPolicy"
+               value="stop-on-error"
+               {{#ifEqual executionPolicy 'stop-on-error'}}checked{{/ifEqual}}
+               />
+        <span class="ebRadioBtn-inputStatus"></span>
+        <span class="ebRadioBtn-label">{{dictionary.stopOnError}}</span>
+    </label><br />
+    <label>
+        <input class="ebRadioBtn"
+               type="radio"
+               name="executionPolicy"
+               e-id="executionPolicy"
+               value="continue-on-error-node"
+               {{#ifEqual executionPolicy 'continue-on-error-node'}}checked{{/ifEqual}}
+               />
+        <span class="ebRadioBtn-inputStatus"></span>
+        <span class="ebRadioBtn-label">{{dictionary.continueOnErrorNode}}</span>
+    </label><br />
+    <label>
+        <input class="ebRadioBtn"
+               type="radio"
+               name="executionPolicy"
+               e-id="executionPolicy"
+               value="continue-on-error-operation"
+               {{#ifEqual executionPolicy 'continue-on-error-operation'}}checked{{/ifEqual}}
+               />
+        <span class="ebRadioBtn-inputStatus"></span>
+        <span class="ebRadioBtn-label">{{dictionary.continueOnErrorOperation}}</span>
+    </label>
+    <div class="elBulkImportLib-wExecutionError-secondaryText">Are you sure you want to proceed?</div>
+</form>

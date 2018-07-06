@@ -1,0 +1,25 @@
+<div class="elNetworkExplorerLib-FilterSelection">
+    <div class="elNetworkExplorerLib-FilterSelection-filters">
+        <input type="text" class="ebInput ebInput_width_small elNetworkExplorerLib-FilterSelection-filters-filterByName" placeholder="{{ strings.filterByNamePlaceholder }}">
+        <div class="ebBtnGroup elNetworkExplorerLib-FilterSelection-filters-sharingButtonsGroup">
+            <label>
+                <input class="elNetworkExplorerLib-FilterSelection-filters-sharingButtonsGroup-all-radio" type="radio" value="all" name="btngrpradio" checked="checked"/>
+                <span class="ebBtn elNetworkExplorerLib-FilterSelection-filters-sharingButtonsGroup-all">{{ strings.allButtonCaption }}</span>
+            </label>
+            <label>
+                <input class="elNetworkExplorerLib-FilterSelection-filters-public" type="radio" value="public" name="btngrpradio" {{#if selected}}checked="checked"{{/if}}/>
+                <span class="ebBtn elNetworkExplorerLib-FilterSelection-filters-sharingButtonsGroup-public">{{ strings.publicButtonCaption }}</span>
+            </label>
+            <label>
+                <input class="elNetworkExplorerLib-FilterSelection-filters-private" type="radio" value="private" name="btngrpradio" {{#if selected}}checked="checked"{{/if}}/>
+                <span class="ebBtn elNetworkExplorerLib-FilterSelection-filters-sharingButtonsGroup-private">{{ strings.privateButtonCaption }}</span>
+            </label>
+        </div>
+        <div class="ebBtnGroup elNetworkExplorerLib-FilterSelection-filters-favouritesButtonsGroup">
+            <label>
+                <input class="elNetworkExplorerLib-FilterSelection-filters-favouritesButtonsGroup-favourites-radio" type="checkbox" value="favourites" name="btngrpradio2" {{#if selected}}checked="checked"{{/if}} e-id="favouritesButton"/>
+                <span class="ebBtn elNetworkExplorerLib-FilterSelection-filters-favouritesButtonsGroup-favourites">{{ strings.favouritesButtonCaption }}</span>
+            </label>
+        </div>
+    </div>
+</div>

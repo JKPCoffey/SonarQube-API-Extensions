@@ -1,0 +1,7 @@
+{
+	"title": "Simple Table Settings",
+	"description": [
+		"The Simple Table Settings example implements a customizable table where the user can decide which order of columns to apply and which columns to hide.",
+		"It displays a table, customizable through the Table Settings panel. The panel is triggered by the table settings button in the table header and uses the Flyout component."
+	]
+}

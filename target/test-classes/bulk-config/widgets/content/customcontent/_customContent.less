@@ -1,0 +1,43 @@
+.elBulkImportLib-wCustomContent {
+    display:block;
+    width:auto;
+    &-title {
+        font-weight: bold;
+        display: inline-block;
+        width: 150px;
+        font-size: 12px;
+        color: #333333;
+        margin-right: 10px;
+    }
+    &-itemValue {
+       display: block;
+       margin-bottom: 10px;
+       margin-top: 10px;
+    }
+    &-value {
+        display: inline-block;
+        white-space: normal !important;
+        width: 150px;
+        color: #333333;
+        font-size: 12px;
+        word-wrap: break-word;
+        margin-right: 10px;
+        &Item:last-child{
+            width: 100%;
+            background-color: red;
+        }
+    }
+    &-contentHolder {
+        display: block;
+        margin-left: 92px;
+        &Item:first-child {
+            list-style: none;
+        }
+    }
+    &-additionalInfoHolder {
+        width: 250px;
+    }
+    &-warningIconHolder {
+        margin-right: 5px;
+    }
+}

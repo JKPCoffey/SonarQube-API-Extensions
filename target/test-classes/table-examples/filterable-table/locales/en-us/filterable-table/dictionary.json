@@ -1,0 +1,16 @@
+{
+	"comparator": {
+		"equal": "Equal",
+		"notEqual": "Different than",
+		"higher": "Higher than",
+		"lower": "Lower than"
+	},
+	"table": {
+		"typeToFilter": "Type to filter",
+		"column": "Column",
+		"noData": {
+			"header": "No Match Found",
+			"message": "Nothing was found matching your filters."
+		}
+	}
+}

@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"data.reader"},{"l":"data.relation"},{"l":"org.sonar.ux.checks.factory"}]
