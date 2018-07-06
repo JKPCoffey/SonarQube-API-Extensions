@@ -1,3 +1,3 @@
-This example demonstrates how to write **Custom Rules** for the SonarQube JavaScript Analyzer (aka SonarJS).
+This repo provides base code and examples for extensions to the SonarQube API
 
-It requires to install the **SonarJS** **3.0** on your SonarQube 5.6+
+These extensions improve the usability and speed of developing checks, rules and plugins for SonarQube
