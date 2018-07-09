@@ -136,7 +136,7 @@ public class PinnedColumnsTest
 	@Test
 	public void netexCreateJobErrorFalslyFlagged()
 	{
-		File file = new File("C:/Users/ezcofja/Desktop/Projects/networkExplorer/NetworkExplorerLib/NetworkExplorerLib/src/networkexplorerlib/classes/CollectionErrorHandler.js");
+		File file = new File(RESOURCES_PATH + "netex/classes/CollectionErrorHandler.js");
 		CheckMessagesVerifier verifier = JavaScriptCheckVerifier.issues(pinCheck, file);
 		
 		verifier.noMore();

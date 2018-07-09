@@ -16,7 +16,7 @@ import data.checks.Check;
 /**
  * UXCheck for the usage of the Apply and Cancel buttons on the Table Settings dynamic frame.<p>
  * This primary check is used directly by SonarQube.
- * @author ezcofja
+ * @author Jack Coffey
  */
 public abstract class ApplyCancelFlyoutCheck extends Check
 {

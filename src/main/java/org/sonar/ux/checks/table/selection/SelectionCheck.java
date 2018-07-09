@@ -25,7 +25,7 @@ import data.checks.Check;
  * <b>2: Multiple Row Selection</b><p>where the user can select multiple rows at the same time.
  * <b>3: Checkbox Selection</b><p>where the user can select one or more specific row(s) by clicking checkboxes.<p><p>
  * This check is primary, it is used directly by the rules and SonarQube.
- * @author ezcofja
+ * @author Jack Coffey
  */
 public abstract class SelectionCheck extends Check
 {
