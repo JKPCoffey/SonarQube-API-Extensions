@@ -1,1 +1,0 @@
-packageSearchIndex = [{"l":"org.sonar.samples.javascript.checks"}]
